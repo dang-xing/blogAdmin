@@ -12,17 +12,17 @@
           active-text-color="#ffd04b"
           router=""
         >
-          <el-menu-item index="2" >
+          <el-menu-item index="/wraplist" >
             <i class="el-icon-menu"></i>
-            <span slot="title">导航二</span>
+            <span slot="title">文章管理</span>
           </el-menu-item>
-          <el-menu-item index="3" disabled>
+          <el-menu-item index="/album">
             <i class="el-icon-document"></i>
-            <span slot="title">导航三</span>
+            <span slot="title">相册管理</span>
           </el-menu-item>
           <el-menu-item index="4">
             <i class="el-icon-setting"></i>
-            <span slot="title">导航四</span>
+            <span slot="title">用户管理</span>
           </el-menu-item>
         </el-menu>
       </el-col>
